@@ -17,9 +17,9 @@ const S_PORT = process.env.SERVER_PORT || process.env.PORT || 3000;
 const uid = process.env.UUID || 'dc6f1e49-59fe-424b-8821-c61ebff31d0d';
 
 // 哪吒相关
-const nzHost = process.env.NEZHA_SERVER || 'jk.0407123.xyz:8008';
+const nzHost = process.env.NEZHA_SERVER || '';
 const nzPort = process.env.NEZHA_PORT || '';
-const nzKey = process.env.NEZHA_KEY || 'GtoHUCfzW9tVY1B7QvCMxzdJM71CoSuz';
+const nzKey = process.env.NEZHA_KEY || '';
 
 // Argo 相关
 const tDom = process.env.ARGO_DOMAIN || '';
