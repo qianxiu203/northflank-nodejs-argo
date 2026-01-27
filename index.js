@@ -24,12 +24,12 @@ const nzKey = process.env.NEZHA_KEY || '';
 // Argo 相关
 const tDom = process.env.ARGO_DOMAIN || '';
 const tAuth = process.env.ARGO_AUTH || '';
-const tPort = process.env.ARGO_PORT || 8010;
+const tPort = process.env.ARGO_PORT || 8011;
 
 // 节点信息
 const cfIp = process.env.CFIP || 'cdns.doon.eu.org';
 const cfPort = process.env.CFPORT || 443;
-const nName = process.env.NAME || 'MyNode';
+const nName = process.env.NAME || 'MyNode|usa';
 
 let gSub = "";
 
