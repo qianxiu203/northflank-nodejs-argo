@@ -14,7 +14,7 @@ const A_ACC = process.env.AUTO_ACCESS || false;
 const WORK_DIR = process.env.FILE_PATH || './tmp';
 const SUB_ROUTE = process.env.SUB_PATH || 'qianxiuadmin';
 const S_PORT = process.env.SERVER_PORT || process.env.PORT || 3000;
-const uid = process.env.UUID || 'dc6f1e49-59fe-424b-8821-c61ebff31d0d';
+const uid = process.env.UUID || 'f176b805-5ed6-4b3a-bd95-cc952503f8b4';
 
 // 哪吒相关
 const nzHost = process.env.NEZHA_SERVER || '';
@@ -27,7 +27,7 @@ const tAuth = process.env.ARGO_AUTH || '';
 const tPort = process.env.ARGO_PORT || 8012;
 
 // 节点信息
-const cfIp = process.env.CFIP || 'cdns.doon.eu.org';
+const cfIp = process.env.CFIP || 'yx.555131.xyz';
 const cfPort = process.env.CFPORT || 443;
 const nName = process.env.NAME || 'MyNode|印度尼西亚';
 
