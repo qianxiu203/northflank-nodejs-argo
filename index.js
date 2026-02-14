@@ -14,7 +14,7 @@ const A_ACC = process.env.AUTO_ACCESS || false;
 const WORK_DIR = process.env.FILE_PATH || './tmp';
 const SUB_ROUTE = process.env.SUB_PATH || 'qianxiuadmin';
 const S_PORT = process.env.SERVER_PORT || process.env.PORT || 3000;
-const uid = process.env.UUID || 'f176b805-5ed6-4b3a-bd95-cc952503f8b4';
+const uid = process.env.UUID || 'f176b805-5ed6-4b3a-bd95-cc952503f8b5';
 
 // 哪吒相关
 const nzHost = process.env.NEZHA_SERVER || '';
@@ -24,12 +24,12 @@ const nzKey = process.env.NEZHA_KEY || '';
 // Argo 相关
 const tDom = process.env.ARGO_DOMAIN || '';
 const tAuth = process.env.ARGO_AUTH || '';
-const tPort = process.env.ARGO_PORT || 8012;
+const tPort = process.env.ARGO_PORT || 8013;
 
 // 节点信息
-const cfIp = process.env.CFIP || 'yx.555131.xyz';
+const cfIp = process.env.CFIP || 'saas.sin.fan';
 const cfPort = process.env.CFPORT || 443;
-const nName = process.env.NAME || 'MyNode|印度尼西亚';
+const nName = process.env.NAME || 'MyNode|2';
 
 let gSub = "";
 
